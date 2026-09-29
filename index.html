@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WATCH MART | Pakistan's Premier Luxury Watch Store & Horology</title>
+  
+  <!-- SEO & Meta Tags -->
+  <meta name="description" content="Shop luxury Swiss-inspired automatic watches, chronographs, men's & women's watches, and smartwatches in Pakistan. Cash on Delivery across Karachi, Lahore, Islamabad, and nationwide. 1-Year Warranty & 7-Day Exchange." />
+  <meta name="keywords" content="watches pakistan, luxury watches karachi, automatic watches lahore, smart watches islamabad, buy watches online pakistan, men watches cod" />
+  <meta name="author" content="Watch Mart Pakistan" />
+  
+  <!-- Open Graph / Facebook / WhatsApp Preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="WATCH MART | Luxury Horology & Timepieces Pakistan" />
+  <meta property="og:description" content="Exclusive Swiss & Japanese Precision Timepieces. Cash on Delivery across Pakistan. Flat 15% OFF with code WATCHMART15." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg" />
+
+  <!-- Google Fonts & Stylesheet -->
+  <link rel="stylesheet" href="styles/main.css" />
+
+  <!-- Schema.org JSON-LD E-Commerce Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "JewelryStore",
+    "name": "Watch Mart",
+    "description": "Premier luxury watch store and horology boutique in Pakistan.",
+    "priceRange": "PKR 5,000 - PKR 40,000",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Al-Hafeez Heights, Gulberg III",
+      "addressLocality": "Lahore",
+      "addressCountry": "PK"
+    },
+    "telephone": "+923008472910",
+    "currenciesAccepted": "PKR",
+    "paymentAccepted": "Cash, Bank Transfer, JazzCash, EasyPaisa, Credit Card"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       TOP ANNOUNCEMENT BAR
+       ========================================================================== -->
+  <aside class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-announcement">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        <span id="top-announcement-text">⚡ FESTIVE LUXURY OFFER: Flat 15% OFF with code WATCHMART15 | Free Express Shipping Nationwide on Rs. 5,000+</span>
+      </div>
+      <div class="top-bar-actions">
+        <a href="#track-order" onclick="openTrackOrderModal()" class="top-bar-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          Track Order
+        </a>
+        <a href="https://wa.me/923008472910" target="_blank" class="top-bar-link" style="color: #25D366; font-weight: 600;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+          WhatsApp Support
+        </a>
+        <span style="color: var(--gold-light); font-weight: 700;">PKR (Rs.)</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       MAIN NAVIGATION HEADER
+       ========================================================================== -->
+  <header class="main-header">
+    <div class="container header-container">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo">
+        <svg class="logo-crown-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="14"/><path d="M18 10.5L19.5 2h9L30 10.5M18 37.5l1.5 8.5h9l1.5-8.5"/><rect x="38" y="21.5" width="3.5" height="5" rx="1"/><path d="M24 12v2.5M24 33.5V36M12 24h2.5M33.5 24H36"/><path d="M24 24l-5-5.5M24 24l6-5"/><circle cx="24" cy="24" r="1.4" fill="currentColor"/></svg>
+        <div class="brand-text">
+          <span class="brand-name store-brand-name">WATCH MART</span>
+          <span class="brand-sub">PAKISTAN &bull; WATCHES</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav>
+        <ul class="nav-menu" id="desktop-nav-categories">
+          <!-- Rendered dynamically by app.js -->
+        </ul>
+      </nav>
+
+      <!-- Action Icons & Admin Toggle -->
+      <div class="header-actions">
+        <!-- Live Search Button -->
+        <button class="icon-btn" onclick="openSearchModal()" title="Search Watches">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+
+        <!-- Wishlist Button -->
+        <button class="icon-btn" onclick="openWishlistModal()" title="Saved Wishlist">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <span class="icon-badge wishlist-counter-badge" style="display:none;">0</span>
+        </button>
+
+        <!-- Cart Drawer Button -->
+        <button class="icon-btn" onclick="openCartDrawer()" title="Shopping Cart">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="icon-badge cart-counter-badge" style="display:none;">0</span>
+        </button>
+
+        <!-- Admin Portal Switch -->
+        <button class="admin-switch-btn admin-entry" onclick="openAdminPortal()" title="Open Admin Control Panel">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          Admin Panel
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO BANNER & SLIDER
+       ========================================================================== -->
+  <section class="hero-section">
+    <div class="hero-backdrop-pattern"></div>
+    <div class="container hero-grid">
+      <!-- Left Content Column -->
+      <div class="hero-content">
+        <div class="hero-badge-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Pakistan's #1 Luxury Horology Store
+        </div>
+
+        <h1 class="hero-title">
+          Masterpieces of <span class="gold-gradient-text">Precision &amp; Grandeur</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Discover Pakistan's finest collection of Swiss-inspired automatics, skeleton mechanicals, and high-performance timepieces. Delivered to your doorstep with Cash on Delivery and 100% inspection guarantee.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#shop" class="btn-primary" onclick="currentCategoryFilter='luxury'; renderProducts();">
+            Explore Collection
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="https://wa.me/923008472910?text=Assalam-o-Alaikum%20Watch%20Mart,%20I%20want%20to%20view%20your%20luxury%20watch%20catalogue." target="_blank" class="btn-whatsapp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+            WhatsApp Concierge
+          </a>
+        </div>
+
+        <div class="hero-stats-row">
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Authentic Watches</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">4.9 / 5.0</span>
+            <span class="stat-label">Verified Customer Score</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" id="stat-happy-clients">4,500+</span>
+            <span class="stat-label">Clients Across Pakistan</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Visual Showcase Column -->
+      <div class="hero-visual-wrapper">
+        <div class="hero-visual-halo"></div>
+        <div class="hero-watch-display">
+          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80" alt="Chrono Royal Oak Skeleton Automatic" />
+        </div>
+        <div class="hero-floating-card">
+          <div style="width: 44px; height: 44px; border-radius: 50%; background: rgba(212,175,55,0.15); display:flex; align-items:center; justify-content:center; color: var(--gold-light);">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <div style="font-size: 0.72rem; color: var(--gold-light); text-transform: uppercase; font-weight: 700;">Featured Piece</div>
+            <div style="font-weight: 700; color: #fff; font-size: 0.9rem;">Royal Oak Skeleton Automatic</div>
+            <div style="font-size: 0.8rem; color: var(--emerald-accent); font-weight: 600;">Rs. 19,999 (Sale)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TRUST BADGES & PERKS BAR
+       ========================================================================== */ -->
+  <section class="perks-strip">
+    <div class="container perks-grid">
+      <div class="perk-item">
+        <div class="perk-icon-box">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        </div>
+        <div class="perk-info">
+          <h4>Cash on Delivery Nationwide</h4>
+          <p>Pay when you inspect in Karachi, Lahore, Islamabad & 200+ cities</p>
+        </div>
+      </div>
+
+      <div class="perk-item">
+        <div class="perk-icon-box">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="perk-info">
+          <h4>1-Year Official Warranty</h4>
+          <p>Complete movement, mechanical & battery coverage</p>
+        </div>
+      </div>
+
+      <div class="perk-item">
+        <div class="perk-icon-box">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+        </div>
+        <div class="perk-info">
+          <h4>7-Day Exchange Policy</h4>
+          <p>Hassle-free replacement guarantee if not 100% satisfied</p>
+        </div>
+      </div>
+
+      <div class="perk-item">
+        <div class="perk-icon-box">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <div class="perk-info">
+          <h4>Luxury Presentation Box</h4>
+          <p>Every watch comes in a handcrafted velvet presentation case</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CURATED CATEGORY TILES
+       ========================================================================== -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Curated Collections</span>
+        <h2 class="section-title">Explore by Category</h2>
+        <p class="section-desc">From boardroom luxury automatics to rugged military smartwatches, discover watches built for every occasion.</p>
+      </div>
+
+      <div class="category-tiles-grid">
+        <div class="category-tile-card" onclick="currentCategoryFilter='men'; renderProducts(); window.location.hash='shop';">
+          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80" alt="Men's Watches" class="category-tile-bg" />
+          <div class="category-tile-overlay">
+            <h3 class="category-tile-name">Men's Watches</h3>
+            <span class="category-tile-sub">Automatics, Chronos &amp; Steel &rarr;</span>
+          </div>
+        </div>
+
+        <div class="category-tile-card" onclick="currentCategoryFilter='women'; renderProducts(); window.location.hash='shop';">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80" alt="Women's Watches" class="category-tile-bg" />
+          <div class="category-tile-overlay">
+            <h3 class="category-tile-name">Women's Watches</h3>
+            <span class="category-tile-sub">Diamonds, Rose Gold &amp; Pearl &rarr;</span>
+          </div>
+        </div>
+
+        <div class="category-tile-card" onclick="currentCategoryFilter='smart'; renderProducts(); window.location.hash='shop';">
+          <img src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=800&q=80" alt="Smart Watches" class="category-tile-bg" />
+          <div class="category-tile-overlay">
+            <h3 class="category-tile-name">Smart Watches</h3>
+            <span class="category-tile-sub">AMOLED Calling, Fitness &amp; AI &rarr;</span>
+          </div>
+        </div>
+
+        <div class="category-tile-card" onclick="currentCategoryFilter='luxury'; renderProducts(); window.location.hash='shop';">
+          <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=800&q=80" alt="Luxury Tourbillons" class="category-tile-bg" />
+          <div class="category-tile-overlay">
+            <h3 class="category-tile-name">Luxury Collection</h3>
+            <span class="category-tile-sub">Tourbillon &amp; Skeleton Editions &rarr;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       MAIN PRODUCT CATALOGUE / SHOP SECTION
+       ========================================================================== -->
+  <section class="section-padding" id="shop" style="background: #0B0D12; border-top: 1px solid var(--border-light);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Our Masterpiece Catalogue</span>
+        <h2 class="section-title">The Horology Collection</h2>
+        <p class="section-desc">Carefully inspected, pressure tested, and calibrated for unmatched timekeeping precision.</p>
+      </div>
+
+      <!-- Category Filter Chips -->
+      <div class="category-chips-row" id="category-filter-chips">
+        <!-- Rendered by app.js -->
+      </div>
+
+      <!-- Filter Controls Bar -->
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.25rem; background:var(--bg-surface); padding:1.25rem 1.5rem; border-radius:var(--radius-md); border:1px solid var(--border-light); margin-bottom:2.5rem;">
+        <div id="products-count-label" style="font-size:0.88rem; font-weight:700; color:var(--gold-light);">
+          Showing timepieces
+        </div>
+
+        <!-- Price Range Filter Inputs -->
+        <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.85rem;">
+          <span style="color:var(--text-muted);">Price (PKR):</span>
+          <input type="number" id="filter-min-price" placeholder="Min" style="width:85px; padding:0.4rem 0.6rem; font-size:0.8rem;" />
+          <span style="color:var(--text-dim);">-</span>
+          <input type="number" id="filter-max-price" placeholder="Max" style="width:85px; padding:0.4rem 0.6rem; font-size:0.8rem;" />
+        </div>
+
+        <!-- Sort Select -->
+        <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.85rem;">
+          <span style="color:var(--text-muted);">Sort By:</span>
+          <select id="product-sort-select" class="form-control" style="width:160px; padding:0.45rem 0.65rem; font-size:0.82rem;">
+            <option value="popular">Most Popular</option>
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="rating">Highest Rated</option>
+            <option value="newest">New Arrivals</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Main Products Grid -->
+      <div class="product-grid" id="main-products-grid">
+        <!-- Rendered by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       NEW ARRIVALS SHOWCASE
+       ========================================================================== -->
+  <section class="section-padding" style="background: #0D0F14; border-top: 1px solid var(--border-light);">
+    <div class="container">
+      <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:2.5rem; flex-wrap:wrap; gap:1rem;">
+        <div>
+          <span class="section-eyebrow">Fresh Horology Releases</span>
+          <h2 class="serif-title" style="font-size:2rem; color:#fff;">New Arrivals &amp; Limited Editions</h2>
+        </div>
+        <a href="#shop" class="btn-outline-gold" onclick="currentCategoryFilter='all'; currentSort='newest'; renderProducts();">
+          View All New Releases &rarr;
+        </a>
+      </div>
+
+      <div class="product-grid" id="newarrivals-grid">
+        <!-- Rendered by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SPECIAL OFFERS / FESTIVE COUNTDOWN BANNER
+       ========================================================================== -->
+  <section class="promo-banner-section">
+    <div class="container promo-grid">
+      <div>
+        <span class="badge badge-sale" style="margin-bottom:1rem;">LIMITED TIME EXCLUSIVE PROMOTION</span>
+        <h2 class="serif-title" style="font-size:2.6rem; color:#fff; line-height:1.2;">
+          Eid &amp; Festive Season <span class="gold-gradient-text">Flat 15% OFF</span>
+        </h2>
+        <p style="color:var(--text-muted); font-size:1rem; margin-top:0.75rem; max-width:550px;">
+          Upgrade your wrist with high-grade automatic and chronograph pieces. Use voucher code <strong style="color:var(--gold-light); font-family:monospace; font-size:1.1rem; background:rgba(212,175,55,0.15); padding:2px 8px; border-radius:4px;">WATCHMART15</strong> during checkout.
+        </p>
+
+        <!-- Countdown timer -->
+        <div class="promo-countdown-wrapper">
+          <div class="countdown-box">
+            <div class="countdown-value" id="countdown-days">02</div>
+            <div class="countdown-unit">Days</div>
+          </div>
+          <div class="countdown-box">
+            <div class="countdown-value" id="countdown-hours">18</div>
+            <div class="countdown-unit">Hours</div>
+          </div>
+          <div class="countdown-box">
+            <div class="countdown-value" id="countdown-mins">44</div>
+            <div class="countdown-unit">Mins</div>
+          </div>
+          <div class="countdown-box">
+            <div class="countdown-value" id="countdown-secs">29</div>
+            <div class="countdown-unit">Secs</div>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:1rem; margin-top:1.5rem;">
+          <a href="#shop" class="btn-primary" onclick="currentCategoryFilter='sale'; renderProducts();">Claim 15% Discount Now</a>
+        </div>
+      </div>
+
+      <!-- Best Sellers Mini Strip -->
+      <div style="background:rgba(18,20,26,0.85); border:1px solid var(--gold-border); border-radius:var(--radius-lg); padding:1.75rem;">
+        <h3 class="serif-title" style="font-size:1.2rem; color:var(--gold-light); margin-bottom:1.25rem;">
+          Trending This Week in Pakistan
+        </h3>
+        <div id="bestsellers-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       WHY CHOOSE US / CRAFTSMANSHIP
+       ========================================================================== -->
+  <section class="section-padding craftsmanship-section" id="about">
+    <div class="container craft-grid">
+      <div class="craft-visual-gallery">
+        <img src="https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&w=600&q=80" alt="Horology Movement" class="craft-img" />
+        <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=600&q=80" alt="Luxury Case Finishing" class="craft-img" />
+        <img src="https://images.unsplash.com/photo-1547996160-71dfabbce5ed?auto=format&fit=crop&w=600&q=80" alt="Sapphire Crystal" class="craft-img" />
+        <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=600&q=80" alt="Precision Chronograph" class="craft-img" />
+      </div>
+
+      <div>
+        <span class="section-eyebrow">Horological Heritage</span>
+        <h2 class="section-title" style="font-size:2.2rem;">Why Discerning Pakistani Gentlemen Choose Us</h2>
+        <p class="section-desc" style="margin-top:0.75rem;">
+          We bridge the gap between unattainable European retail prices and counterfeit timepieces. Every Watch Mart watch is built with genuine surgical-grade steel and authentic mechanical calibres.
+        </p>
+
+        <div class="craft-points-list">
+          <div class="craft-point-item">
+            <span class="point-number">01</span>
+            <div>
+              <h4 style="color:#fff; font-size:1.05rem; font-weight:700;">Anti-Scratch Sapphire Crystal</h4>
+              <p style="color:var(--text-muted); font-size:0.85rem; margin-top:2px;">Ranked 9 on the Mohs hardness scale. Only diamonds can scratch our watch crystals.</p>
+            </div>
+          </div>
+
+          <div class="craft-point-item">
+            <span class="point-number">02</span>
+            <div>
+              <h4 style="color:#fff; font-size:1.05rem; font-weight:700;">Swiss &amp; Japanese Automatic Calibres</h4>
+              <p style="color:var(--text-muted); font-size:0.85rem; margin-top:2px;">Powered by the natural motion of your wrist. No battery replacements required for life.</p>
+            </div>
+          </div>
+
+          <div class="craft-point-item">
+            <span class="point-number">03</span>
+            <div>
+              <h4 style="color:#fff; font-size:1.05rem; font-weight:700;">Complete Verification Before Payment</h4>
+              <p style="color:var(--text-muted); font-size:0.85rem; margin-top:2px;">Ask the courier rider to inspect the luxury wooden box and watch before handing over cash.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CUSTOMER REVIEWS & TESTIMONIALS
+       ========================================================================== -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Verified Buyer Testimonials</span>
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-desc">Over 4,500 satisfied Pakistani customers from Karachi, Lahore, Islamabad, and across the nation.</p>
+      </div>
+
+      <div class="reviews-grid" id="customer-reviews-container">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       INSTAGRAM & SOCIAL MEDIA FEED
+       ========================================================================== -->
+  <section class="section-padding" style="background:#08090C; border-top: 1px solid var(--border-light);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Join the Elite Club</span>
+        <h2 class="section-title">#WatchMartPakistan</h2>
+        <p class="section-desc">Tag @watchmart.pk on Instagram and TikTok to be featured on our official showcase.</p>
+      </div>
+
+      <div class="instagram-grid">
+        <div class="insta-item" onclick="openProductModal('prod-001')">
+          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=400&q=80" alt="Instagram Post" class="insta-img" />
+          <div class="insta-hover-overlay"><span>View Watch &rarr;</span></div>
+        </div>
+        <div class="insta-item" onclick="openProductModal('prod-002')">
+          <img src="https://images.unsplash.com/photo-1547996160-71dfabbce5ed?auto=format&fit=crop&w=400&q=80" alt="Instagram Post" class="insta-img" />
+          <div class="insta-hover-overlay"><span>View Watch &rarr;</span></div>
+        </div>
+        <div class="insta-item" onclick="openProductModal('prod-003')">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=400&q=80" alt="Instagram Post" class="insta-img" />
+          <div class="insta-hover-overlay"><span>View Watch &rarr;</span></div>
+        </div>
+        <div class="insta-item" onclick="openProductModal('prod-004')">
+          <img src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=400&q=80" alt="Instagram Post" class="insta-img" />
+          <div class="insta-hover-overlay"><span>View Watch &rarr;</span></div>
+        </div>
+        <div class="insta-item" onclick="openProductModal('prod-005')">
+          <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=400&q=80" alt="Instagram Post" class="insta-img" />
+          <div class="insta-hover-overlay"><span>View Watch &rarr;</span></div>
+        </div>
+        <div class="insta-item" onclick="openProductModal('prod-007')">
+          <img src="https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&w=400&q=80" alt="Instagram Post" class="insta-img" />
+          <div class="insta-hover-overlay"><span>View Watch &rarr;</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       NEWSLETTER SUBSCRIPTION
+       ========================================================================== -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="newsletter-card">
+        <span class="badge badge-gold" style="margin-bottom:0.75rem;">EXCLUSIVE PRIVILEGE CLUB</span>
+        <h2 class="serif-title" style="font-size:2rem; color:#fff;">Receive Rs. 1,000 Off Your First Order</h2>
+        <p style="color:var(--text-muted); font-size:0.95rem; max-width:550px; margin:0.5rem auto 0;">
+          Subscribe to our private horology bulletin for early access to limited edition drops, VIP private sales, and watch care guides.
+        </p>
+
+        <form class="newsletter-form" onsubmit="event.preventDefault(); showToast('Welcome to the VIP Club! Use code WELCOME10 for 10% off.', 'success'); this.reset();">
+          <input type="email" class="newsletter-input" placeholder="Enter your email address..." required />
+          <button type="submit" class="btn-primary" style="white-space:nowrap;">Join VIP Club</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       MAIN FOOTER & BUSINESS DETAILS
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Col 1: Brand Info -->
+        <div class="footer-col">
+          <a href="#" class="brand-logo" style="margin-bottom:1.25rem;">
+            <svg class="logo-crown-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="14"/><path d="M18 10.5L19.5 2h9L30 10.5M18 37.5l1.5 8.5h9l1.5-8.5"/><rect x="38" y="21.5" width="3.5" height="5" rx="1"/><path d="M24 12v2.5M24 33.5V36M12 24h2.5M33.5 24H36"/><path d="M24 24l-5-5.5M24 24l6-5"/><circle cx="24" cy="24" r="1.4" fill="currentColor"/></svg>
+            <div class="brand-text">
+              <span class="brand-name store-brand-name">WATCH MART</span>
+              <span class="brand-sub">WATCHES &bull; PAKISTAN</span>
+            </div>
+          </a>
+          <p style="font-size:0.88rem; color:var(--text-muted); line-height:1.7; margin-bottom:1.5rem;">
+            Pakistan's premier online boutique for luxury automatics, high-precision chronographs, and modern smartwatches. Crafted with prestige, delivered with honor.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://facebook.com" data-social="facebook" target="_blank" rel="noopener" class="icon-btn" title="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://instagram.com" data-social="instagram" target="_blank" rel="noopener" class="icon-btn" title="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://tiktok.com" data-social="tiktok" target="_blank" rel="noopener" class="icon-btn" title="TikTok">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5v3a8 8 0 0 1-5-1.7V16a8 8 0 1 1-8-8v4z"/></svg>
+            </a>
+            <a href="https://wa.me/923008472910" target="_blank" class="icon-btn" style="color:#25D366;" title="WhatsApp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Categories -->
+        <div class="footer-col">
+          <h4>Watch Collections</h4>
+          <ul class="footer-links-list">
+            <li><a href="#shop" onclick="currentCategoryFilter='men'; renderProducts();">Men's Luxury Watches</a></li>
+            <li><a href="#shop" onclick="currentCategoryFilter='women'; renderProducts();">Women's Diamond &amp; Rose</a></li>
+            <li><a href="#shop" onclick="currentCategoryFilter='smart'; renderProducts();">AMOLED Smartwatches</a></li>
+            <li><a href="#shop" onclick="currentCategoryFilter='luxury'; renderProducts();">Skeleton &amp; Tourbillons</a></li>
+            <li><a href="#shop" onclick="currentCategoryFilter='sports'; renderProducts();">Sports &amp; Diver Watches</a></li>
+            <li><a href="#shop" onclick="currentCategoryFilter='couple'; renderProducts();">His &amp; Hers Couple Sets</a></li>
+            <li><a href="#shop" onclick="currentCategoryFilter='sale'; renderProducts();">Festive Sale Deals (15% Off)</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Customer Care & Policies -->
+        <div class="footer-col">
+          <h4>Customer Concierge</h4>
+          <ul class="footer-links-list">
+            <li><a href="javascript:void(0)" onclick="openTrackOrderModal()">Track Your Order (TCS / Trax)</a></li>
+            <li><a href="javascript:void(0)" onclick="openPolicyModal('shipping')">Shipping &amp; Delivery Policy</a></li>
+            <li><a href="javascript:void(0)" onclick="openPolicyModal('returns')">7-Day Return &amp; Exchange</a></li>
+            <li><a href="javascript:void(0)" onclick="openPolicyModal('warranty')">1-Year Warranty Information</a></li>
+            <li><a href="javascript:void(0)" onclick="openPolicyModal('faq')">Frequently Asked Questions</a></li>
+            <li><a href="javascript:void(0)" onclick="openPolicyModal('privacy')">Privacy &amp; Security Policy</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Pakistan Contact Info -->
+        <div class="footer-col">
+          <h4>Contact Pakistan</h4>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--gold-primary);"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Al-Hafeez Heights, Gulberg III, Lahore, Pakistan</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--gold-primary);"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>Phone: +92 300 8472910</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="color:#25D366;"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+            <span>WhatsApp: 0300 8472910</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--gold-primary);"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>orders@watchmart.pk</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p style="font-size:0.82rem; color:var(--text-dim);">
+          &copy; 2026 Watch Mart Pakistan. All Rights Reserved. Designed &amp; Engineered for Haute Horlogerie.
+        </p>
+
+        <div class="payment-gateways-row">
+          <span style="font-size:0.75rem; color:var(--text-muted); margin-right:4px;">Official Payment Partners:</span>
+          <span class="payment-tag">Cash on Delivery</span>
+          <span class="payment-tag">Meezan Bank</span>
+          <span class="payment-tag">JazzCash</span>
+          <span class="payment-tag">EasyPaisa</span>
+          <span class="payment-tag">Visa / Mastercard</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       FLOATING WHATSAPP BUTTON
+       ========================================================================== -->
+  <aside class="floating-whatsapp-widget">
+    <div class="whatsapp-tooltip">💬 Need help? Chat on WhatsApp!</div>
+    <a href="https://wa.me/923008472910?text=Assalam-o-Alaikum%20Watch%20Mart,%20I%20have%20an%20inquiry%20regarding%20watches." target="_blank" class="floating-whatsapp-btn" id="floating-whatsapp-link" title="Chat on WhatsApp">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/>
+      </svg>
+    </a>
+  </aside>
+
+  <!-- ==========================================================================
+       SMARTPHONE BOTTOM NAVIGATION BAR
+       ========================================================================== -->
+  <nav class="mobile-bottom-bar">
+    <a href="#" class="mobile-nav-btn active">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="#shop" class="mobile-nav-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      <span>Shop</span>
+    </a>
+    <button class="mobile-nav-btn" onclick="openWishlistModal()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      <span>Wishlist</span>
+    </button>
+    <button class="mobile-nav-btn" onclick="openCartDrawer()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+      <span>Cart</span>
+    </button>
+    <button class="mobile-nav-btn admin-entry" onclick="openAdminPortal()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      <span>Admin</span>
+    </button>
+  </nav>
+
+  <!-- ==========================================================================
+       MODALS & DRAWERS
+       ========================================================================== -->
+
+  <!-- 1. Live Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop">
+    <div class="search-modal-box">
+      <div class="search-input-wrapper">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--gold-primary);"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="search-live-input" class="search-input-field" placeholder="Search by watch name, category, SKU, brand (e.g. Skeleton, Submariner, Rose Gold)..." />
+        <button onclick="closeSearchModal()" class="modal-close-btn" style="position:static;">&times;</button>
+      </div>
+      <div class="search-results-list" id="search-results-list">
+        <!-- Rendered by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Product Detail Modal -->
+  <div class="modal-backdrop" id="product-modal-backdrop">
+    <div class="product-detail-modal">
+      <button class="modal-close-btn" onclick="closeProductModal()">&times;</button>
+      <div id="product-modal-content">
+        <!-- Injected dynamically by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Cart Slide-Out Drawer -->
+  <div class="drawer-backdrop" id="cart-drawer-backdrop" onclick="if(event.target === this) closeCartDrawer()">
+    <div class="cart-drawer">
+      <div class="drawer-header">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+          <h3 class="serif-title" style="font-size:1.15rem; color:#fff;">Your Shopping Cart</h3>
+          <span class="badge badge-gold cart-counter-badge">0</span>
+        </div>
+        <button class="modal-close-btn" style="position:static; width:34px; height:34px;" onclick="closeCartDrawer()">&times;</button>
+      </div>
+
+      <div class="free-shipping-progress" id="drawer-shipping-progress">
+        <!-- Injected dynamically -->
+      </div>
+
+      <div class="drawer-items-list" id="drawer-items-list">
+        <!-- Injected dynamically -->
+      </div>
+
+      <div class="drawer-footer" id="drawer-footer-content">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Pakistan Checkout Modal -->
+  <div class="modal-backdrop" id="checkout-modal-backdrop">
+    <div class="checkout-modal">
+      <button class="modal-close-btn" onclick="closeCheckoutModal()">&times;</button>
+      <div id="checkout-modal-content">
+        <!-- Injected dynamically by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Order Confirmation & Printable Invoice Modal -->
+  <div class="modal-backdrop" id="order-confirm-modal-backdrop">
+    <div style="max-width:800px; width:100%; max-height:92vh; overflow-y:auto; position:relative;">
+      <button class="modal-close-btn" onclick="closeOrderConfirmationModal()" style="top:10px; right:10px; background:#000;">&times;</button>
+      <div id="order-confirm-modal-content">
+        <!-- Injected dynamically by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. Order Tracking Modal -->
+  <div class="modal-backdrop" id="track-order-modal-backdrop">
+    <div style="background:var(--bg-surface); border:1px solid var(--gold-border); border-radius:var(--radius-lg); width:100%; max-width:650px; padding:2rem; position:relative;">
+      <button class="modal-close-btn" onclick="closeTrackOrderModal()">&times;</button>
+      <span class="section-eyebrow">Real-Time Courier Updates</span>
+      <h3 class="serif-title" style="font-size:1.5rem; color:#fff; margin-bottom:0.75rem;">Track Your Watch Delivery</h3>
+      <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1.5rem;">Enter your Order ID (e.g. ORD-PK-8921) or your 11-digit mobile phone number.</p>
+
+      <form onsubmit="handleSearchOrderTracking(event)" style="display:flex; gap:0.75rem;">
+        <input type="text" id="tracking-search-input" class="form-control" placeholder="Order ID or Mobile (03001234567)..." style="flex:1;" required />
+        <button type="submit" class="btn-primary">Track Now</button>
+      </form>
+
+      <div id="tracking-result-box">
+        <!-- Dynamic Result -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. Saved Wishlist Modal -->
+  <div class="modal-backdrop" id="wishlist-modal-backdrop">
+    <div style="background:var(--bg-surface); border:1px solid var(--gold-border); border-radius:var(--radius-lg); width:100%; max-width:850px; max-height:85vh; overflow-y:auto; padding:2rem; position:relative;">
+      <button class="modal-close-btn" onclick="closeWishlistModal()">&times;</button>
+      <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:1.5rem; border-bottom:1px solid var(--border-light); padding-bottom:1rem;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        <h3 class="serif-title" style="font-size:1.4rem; color:#fff;">Your Saved Wishlist</h3>
+      </div>
+      <div id="wishlist-items-container">
+        <!-- Rendered by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 8. Policy & Information Modal -->
+  <div class="modal-backdrop" id="policy-modal-backdrop">
+    <div style="background:var(--bg-surface); border:1px solid var(--gold-border); border-radius:var(--radius-lg); width:100%; max-width:750px; max-height:85vh; overflow-y:auto; padding:2.5rem; position:relative;">
+      <button class="modal-close-btn" onclick="closePolicyModal()">&times;</button>
+      <div id="policy-modal-body">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 9. EXECUTIVE ADMIN PORTAL MODAL -->
+  <div class="modal-backdrop" id="admin-modal-backdrop" style="padding:0;">
+    <div class="admin-container" style="width:100%; height:100vh; overflow-y:auto;">
+      <!-- Admin Top Nav -->
+      <div class="admin-nav">
+        <div style="display:flex; align-items:center; gap:1rem;">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--gold-primary)" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          <div>
+            <h3 style="font-family:var(--font-serif); font-size:1.2rem; color:#fff;">WATCH MART &bull; ADMIN CONTROL</h3>
+            <span style="font-size:0.75rem; color:var(--gold-light);">Store Management &amp; Analytics Hub</span>
+          </div>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:1rem;">
+          <button class="btn-outline-gold" onclick="closeAdminPortal()">
+            &larr; View Live Webstore
+          </button>
+          <button class="modal-close-btn" style="position:static;" onclick="closeAdminPortal()">&times;</button>
+        </div>
+      </div>
+
+      <!-- Admin Tab Bar -->
+      <div class="admin-tabs-bar">
+        <button class="admin-tab-btn active" data-tab="overview" onclick="switchAdminTab('overview')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          Dashboard Overview
+        </button>
+        <button class="admin-tab-btn" data-tab="products" onclick="switchAdminTab('products')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Products &amp; Stock
+        </button>
+        <button class="admin-tab-btn" data-tab="orders" onclick="switchAdminTab('orders')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+          Orders &amp; Tracking
+        </button>
+        <button class="admin-tab-btn" data-tab="categories" onclick="switchAdminTab('categories')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+          Categories
+        </button>
+        <button class="admin-tab-btn" data-tab="coupons" onclick="switchAdminTab('coupons')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+          Coupons &amp; Discounts
+        </button>
+        <button class="admin-tab-btn" data-tab="reviews" onclick="switchAdminTab('reviews')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Reviews Moderation
+        </button>
+        <button class="admin-tab-btn" data-tab="shipping" onclick="switchAdminTab('shipping')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          Shipping &amp; Delivery Rates
+        </button>
+        <button class="admin-tab-btn" data-tab="settings" onclick="switchAdminTab('settings')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          Settings &amp; Backup
+        </button>
+      </div>
+
+      <!-- Admin Tab Dynamic Content -->
+      <div class="admin-content-area" id="admin-dynamic-content">
+        <!-- Injected dynamically by admin.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 10. Admin Form Modal (Add / Edit Watch) -->
+  <div class="modal-backdrop" id="admin-form-modal-backdrop">
+    <div style="background:var(--bg-surface); border:1px solid var(--gold-border); border-radius:var(--radius-lg); width:100%; max-width:850px; max-height:90vh; overflow-y:auto; position:relative;">
+      <button class="modal-close-btn" onclick="closeAdminFormModal()">&times;</button>
+      <div id="admin-form-modal-content">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/admin.js"></script>
+  <script src="js/supabase.js"></script>
+
+  <!-- Policy Modals Helper Script -->
+  <script>
+    function openPolicyModal(type) {
+      const backdrop = document.getElementById('policy-modal-backdrop');
+      const body = document.getElementById('policy-modal-body');
+      if (!backdrop || !body) return;
+
+      const policies = {
+        shipping: {
+          title: "Shipping & Nationwide Delivery Policy",
+          content: `
+            <p><strong>1. Delivery Coverage:</strong> Watch Mart delivers to all major cities and towns across Pakistan (Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad, Multan, Peshawar, Sialkot, Quetta, and remote districts) via our trusted logistics partners TCS Express, Trax, and CallCourier.</p>
+            <p style="margin-top:1rem;"><strong>2. Shipping Timelines:</strong></p>
+            <ul style="margin:0.5rem 0 1rem 1.5rem; color:var(--text-muted);">
+              <li>Lahore &amp; Gujranwala: 1 - 2 Business Days</li>
+              <li>Karachi, Islamabad &amp; Rawalpindi: 2 - 3 Business Days</li>
+              <li>Other Cities &amp; Rural Regions: 3 - 5 Business Days</li>
+            </ul>
+            <p><strong>3. Free Shipping:</strong> Orders with subtotal exceeding Rs. 5,000 qualify for 100% Free Express Delivery.</p>
+            <p style="margin-top:1rem;"><strong>4. Open Parcel / Inspection Policy:</strong> You have the legal right to inspect the luxury package before making payment to the courier rider on Cash on Delivery.</p>
+          `
+        },
+        returns: {
+          title: "7-Day Return & Exchange Guarantee",
+          content: `
+            <p><strong>1. Hassle-Free Returns:</strong> If your watch arrives damaged, defective, or differs in any way from what was ordered, you can request an exchange or return within 7 calendar days of receipt.</p>
+            <p style="margin-top:1rem;"><strong>2. Condition for Return:</strong> Watch must be unworn, in original condition with protective stickers intact, and accompanied by the original luxury wooden case, warranty card, and tags.</p>
+            <p style="margin-top:1rem;"><strong>3. Return Procedure:</strong> Simply contact our WhatsApp Concierge at +92 300 8472910 with your Order ID and photo of the timepiece. Our team will arrange a reverse courier pickup from your doorstep.</p>
+          `
+        },
+        warranty: {
+          title: "1-Year Official Horology Warranty",
+          content: `
+            <p>Every timepiece sold by Watch Mart is covered by a <strong>1-Year Local &amp; International Movement Warranty</strong> starting from the delivery date.</p>
+            <p style="margin-top:1rem;"><strong>What is Covered:</strong></p>
+            <ul style="margin:0.5rem 0 1rem 1.5rem; color:var(--text-muted);">
+              <li>Internal automatic self-winding movement failure or timing inaccuracies</li>
+              <li>Hands detachment, dial dial loose markers, or calendar misalignment</li>
+              <li>Battery replacement for quartz timepieces</li>
+              <li>Manufacturing material defects</li>
+            </ul>
+            <p><strong>What is Not Covered:</strong> Accidental glass breakage due to severe physical impacts, water damage caused by swimming with non-diver watches, or unauthorized third-party repairs.</p>
+          `
+        },
+        faq: {
+          title: "Frequently Asked Questions (FAQ)",
+          content: `
+            <div style="display:flex; flex-direction:column; gap:1.25rem;">
+              <div>
+                <strong style="color:var(--gold-light);">Q: Are these watches original?</strong>
+                <p style="color:var(--text-muted); margin-top:4px;">A: Yes! We supply 100% authentic precision-engineered automatic and chronograph timepieces with genuine Japanese Miyota/Seiko and Swiss-calibre movements. Each piece comes in official luxury packaging with a certificate of warranty.</p>
+              </div>
+              <div>
+                <strong style="color:var(--gold-light);">Q: How does Cash on Delivery (COD) work?</strong>
+                <p style="color:var(--text-muted); margin-top:4px;">A: Simply enter your delivery address at checkout. We dispatch via TCS or Trax. You pay cash to the delivery rider once your parcel arrives.</p>
+              </div>
+              <div>
+                <strong style="color:var(--gold-light);">Q: Can I order directly on WhatsApp?</strong>
+                <p style="color:var(--text-muted); margin-top:4px;">A: Absolutely! Click the 'Order via WhatsApp' button on any watch, and our concierge team will assist you with immediate booking and photos.</p>
+              </div>
+            </div>
+          `
+        },
+        privacy: {
+          title: "Privacy & Data Security Policy",
+          content: `
+            <p>Your privacy is of utmost importance to Watch Mart Pakistan. We never sell, rent, or share your phone number, email address, or home delivery coordinates with third-party advertising companies.</p>
+            <p style="margin-top:1rem;">Your address details are solely transmitted to encrypted courier logistics API systems for dispatch fulfillment.</p>
+          `
+        }
+      };
+
+      const p = policies[type] || policies.shipping;
+      body.innerHTML = `
+        <h2 class="serif-title" style="font-size:1.6rem; color:#fff; margin-bottom:1.5rem; border-bottom:1px solid var(--border-light); padding-bottom:0.75rem;">
+          ${p.title}
+        </h2>
+        <div style="font-size:0.92rem; color:#E2E8F0; line-height:1.7;">
+          ${p.content}
+        </div>
+      `;
+      backdrop.classList.add('open');
+    }
+
+    function closePolicyModal() {
+      const backdrop = document.getElementById('policy-modal-backdrop');
+      if (backdrop) backdrop.classList.remove('open');
+    }
+  </script>
+</body>
+</html>
