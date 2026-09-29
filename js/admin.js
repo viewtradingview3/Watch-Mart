@@ -451,7 +451,7 @@ function handleSaveProductForm(e) {
     specs: existing.specs || {
       movement: "Japanese Precision Quartz",
       caseDiameter: "42 mm",
-      caseMaterial: "316L Solid Stainless Steel",
+      caseMaterial: "Solid Stainless Steel",
       glass: "Sapphire Crystal",
       waterResistance: "50m / 5 ATM",
       warranty: "1 Year Official Warranty"
